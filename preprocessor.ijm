@@ -11,7 +11,7 @@ function action(input, filename){
 	close();
 }
 
-input= "/Users/KevinGao/Desktop/background/new16x16/";
+input= "/Users/Desktop/background/new16x16/"; //change to custom filepath
 
 setBatchMode(true);
 list = getFileList(input);
