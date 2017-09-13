@@ -1,5 +1,5 @@
 /**
- * Created by KevinGao on 7/14/17.
+ * Created on 7/14/17.
  */
 import java.io.*;
 import javax.imageio.ImageIO;
