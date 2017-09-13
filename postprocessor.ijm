@@ -1,5 +1,5 @@
 //This program is made to run with Fiji2 ImageJ image analysis software.
-//Created by Kevin Gao July 2017
+//Created on July 2017
 //It takes in a text file containing the image files that were classified as fiber by the machine learning algorithm and analyzes the percentage fiber that each image contains
 //The results are outputted to a text file
 
@@ -32,5 +32,5 @@ for(i = 4; i<lines.length; i++){ //changed start value to 4; changed list to lin
 	action2(lines[i]);
 }
 setBatchMode(false);
-saveAs("Results", "/Users/KevinGao/Desktop/percentages.tab");
+saveAs("Results", "/Users/Desktop/percentages.tab"); //change to custom filepath
 
